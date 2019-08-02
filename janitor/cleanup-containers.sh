@@ -1,4 +1,4 @@
-PROJECT_IDENTIFIER=moon_
+PROJECT_IDENTIFIER=${1}
 
 echo INFO: list all relevant containers
 docker container ls --all | grep -E ${PROJECT_IDENTIFIER}

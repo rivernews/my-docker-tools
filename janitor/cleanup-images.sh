@@ -1,4 +1,4 @@
-IMAGES_SELECTOR="moon_"
+IMAGES_SELECTOR=${1}
 
 echo INFO: listing all relevant images...
 docker images -a | grep -E ${IMAGES_SELECTOR}
