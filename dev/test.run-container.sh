@@ -8,4 +8,5 @@
 CONTAINER_NAME=$1
 IMAGE_NAME=$2
 NETWORK_NAME=$3
+
 docker run --rm --name=${CONTAINER_NAME} --network=${NETWORK_NAME} ${IMAGE_NAME}
